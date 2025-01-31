@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Top Car Dealership in Nigeria - Premium Cars, Best Prices">
+    <title>Car Dealership Nigeria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #003366; /* Navy Blue */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0073e6; /* Blue */
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #005bb5;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 20px;
+        }
+        .about, .cars, .contact {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .about h2, .cars h2, .contact h2 {
+            color: #003366;
+        }
+        .about p, .contact p {
+            line-height: 1.6;
+        }
+        .cars .car-list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .cars .car-item {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .car-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>XYZ Car Dealership</h1>
+        <p>Your Trusted Car Dealer in Nigeria</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#cars">Our Cars</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div>
+            <h2>About Us</h2>
+            <p>XYZ Car Dealership is a leading provider of high-quality cars in Nigeria. We specialize in both new and used vehicles, offering a wide range of brands and models to suit every taste and budget. With a commitment to customer satisfaction, we aim to deliver not just cars, but a seamless car-buying experience.</p>
+        </div>
+    </section>
+
+    <!-- Cars Section -->
+    <section id="cars" class="cars">
+        <div>
+            <h2>Our Cars</h2>
+            <div class="car-list">
+                <div class="car-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Car Model 1">
+                    <h3>Honda Civic</h3>
+                    <p>Price: ₦5,000,000</p>
+                </div>
+                <div class="car-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Car Model 2">
+                    <h3>Toyota Camry</h3>
+                    <p>Price: ₦6,500,000</p>
+                </div>
+                <div class="car-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Car Model 3">
+                    <h3>Mercedes-Benz E-Class</h3>
+                    <p>Price: ₦12,000,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div>
+            <h2>Contact Us</h2>
+            <p>If you're interested in any of our cars or have any inquiries, feel free to contact us using the form below:</p>
+            <form action="#" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 XYZ Car Dealership | <a href="mailto:info@xyzdealership.com">Email Us</a></p>
+    </footer>
+
+</body>
+</html>
